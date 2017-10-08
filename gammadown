@@ -1,0 +1,1 @@
+xgamma 2>&1 | awk '{printf $NF}' | xargs echo '-0.02 + ' | bc | xargs xgamma -gamma
